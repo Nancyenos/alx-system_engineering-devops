@@ -1,0 +1,3 @@
+#!/bin/bash
+alias ROT 13="tr 'A-za-z' 'Z-NA-Mz-na-m'"
+
