@@ -1,5 +1,4 @@
 #!/bin/env bash
-
 # Check if the number of parameters is less than 4
 if [ "$#" -lt 4 ]; then
     echo "Usage: $0 PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
@@ -16,13 +15,5 @@ ssh_key="$4"
 scp_command="scp -o StrictHostKeyChecking=no -i $ssh_key $file_path $username@$server_ip:~/"
 
 # Execute the scp command
-echo "Transferring file..."
 $scp_command
-
-# Check the exit status of the scp command
-if [ $? -eq 0 ]; then
-    echo "File transfer successful!"
-else
-    echo "File transfer failed."
-fi
 
