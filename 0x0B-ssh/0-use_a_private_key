@@ -1,10 +1,8 @@
-#!/bin/env bash
-
+#!/usr/bin/env bash
 # Server details
-server="52.3.148.114"
+server="your_server_ip_or_hostname"
 user="ubuntu"
 private_key="~/.ssh/school"
-
 # SSH connection using single-character flags
 ssh -i "$private_key" "$user"@"$server"
 
