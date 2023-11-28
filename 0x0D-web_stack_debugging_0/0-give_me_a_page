@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-#Debugging apache webserver
+#used tge following command to start apache2 server
 
-docker exec -it 22cde9cd833e /bin/bash
-service apache2 status
-service apache2 start
+sudo service apache2 start
+
