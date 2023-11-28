@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#Debugging apache webserver
+
+docker exec -it 22cde9cd833e /bin/bash
+service apache2 status
+service apache2 start
