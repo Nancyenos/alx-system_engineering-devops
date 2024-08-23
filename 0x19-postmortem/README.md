@@ -52,7 +52,9 @@
 
 **Diagram: The Misconfigured Load Balancer**
 
-*Imagine a cartoon of a befuddled load balancer juggling traffic signs while a server looks on in confusion. This visual would aptly capture the chaos and provide a laugh!*
+
+![load balancer](./Diagram.webp)
+
 
 ---
 
